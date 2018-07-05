@@ -11,6 +11,8 @@
 		F77DE20120EDB379009F9A6D /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = F77DE20020EDB379009F9A6D /* Person.m */; };
 		F77DE20320EDB768009F9A6D /* person.plist in Resources */ = {isa = PBXBuildFile; fileRef = F77DE20220EDB768009F9A6D /* person.plist */; };
 		F77DE20620EDEE19009F9A6D /* KeyChain.m in Sources */ = {isa = PBXBuildFile; fileRef = F77DE20520EDEE19009F9A6D /* KeyChain.m */; };
+		F77DE20B20EDFB48009F9A6D /* FMDBManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F77DE20A20EDFB48009F9A6D /* FMDBManager.m */; };
+		F77DE20D20EDFE57009F9A6D /* status.sql in Resources */ = {isa = PBXBuildFile; fileRef = F77DE20C20EDFE57009F9A6D /* status.sql */; };
 		F7E739182089BD1F00D9873B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F7E739172089BD1F00D9873B /* AppDelegate.m */; };
 		F7E7391B2089BD1F00D9873B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F7E7391A2089BD1F00D9873B /* ViewController.m */; };
 		F7E7391E2089BD1F00D9873B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F7E7391C2089BD1F00D9873B /* Main.storyboard */; };
@@ -28,6 +30,9 @@
 		F77DE20220EDB768009F9A6D /* person.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = person.plist; sourceTree = "<group>"; };
 		F77DE20420EDEE19009F9A6D /* KeyChain.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KeyChain.h; sourceTree = "<group>"; };
 		F77DE20520EDEE19009F9A6D /* KeyChain.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KeyChain.m; sourceTree = "<group>"; };
+		F77DE20920EDFB48009F9A6D /* FMDBManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FMDBManager.h; sourceTree = "<group>"; };
+		F77DE20A20EDFB48009F9A6D /* FMDBManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FMDBManager.m; sourceTree = "<group>"; };
+		F77DE20C20EDFE57009F9A6D /* status.sql */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = status.sql; sourceTree = "<group>"; };
 		F7E739132089BD1F00D9873B /* AFNetworking-source-code.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "AFNetworking-source-code.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F7E739162089BD1F00D9873B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		F7E739172089BD1F00D9873B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -78,6 +83,16 @@
 			path = Model;
 			sourceTree = "<group>";
 		};
+		F77DE20820EDFB32009F9A6D /* FMDBManager */ = {
+			isa = PBXGroup;
+			children = (
+				F77DE20C20EDFE57009F9A6D /* status.sql */,
+				F77DE20920EDFB48009F9A6D /* FMDBManager.h */,
+				F77DE20A20EDFB48009F9A6D /* FMDBManager.m */,
+			);
+			path = FMDBManager;
+			sourceTree = "<group>";
+		};
 		F7E7390A2089BD1F00D9873B = {
 			isa = PBXGroup;
 			children = (
@@ -99,6 +114,7 @@
 		F7E739152089BD1F00D9873B /* AFNetworking-source-code */ = {
 			isa = PBXGroup;
 			children = (
+				F77DE20820EDFB32009F9A6D /* FMDBManager */,
 				F77DE1FE20EDB36A009F9A6D /* Model */,
 				F7E739162089BD1F00D9873B /* AppDelegate.h */,
 				F7E739172089BD1F00D9873B /* AppDelegate.m */,
@@ -180,6 +196,7 @@
 				F77DE20320EDB768009F9A6D /* person.plist in Resources */,
 				F7E739202089BD2200D9873B /* Assets.xcassets in Resources */,
 				F7E7391E2089BD1F00D9873B /* Main.storyboard in Resources */,
+				F77DE20D20EDFE57009F9A6D /* status.sql in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -243,6 +260,7 @@
 			files = (
 				F7E7391B2089BD1F00D9873B /* ViewController.m in Sources */,
 				F7E739262089BD2200D9873B /* main.m in Sources */,
+				F77DE20B20EDFB48009F9A6D /* FMDBManager.m in Sources */,
 				F77DE20120EDB379009F9A6D /* Person.m in Sources */,
 				F7E739182089BD1F00D9873B /* AppDelegate.m in Sources */,
 				F77DE20620EDEE19009F9A6D /* KeyChain.m in Sources */,

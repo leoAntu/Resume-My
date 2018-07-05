@@ -10,4 +10,7 @@ target 'AFNetworking-source-code' do
 pod 'AFNetworking'
 pod 'SDWebImage'
 pod 'Masonry'
+pod 'YYCache'
+pod 'FMDB'
+
 end

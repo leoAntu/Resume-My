@@ -12,6 +12,7 @@
 #import <Masonry.h>
 #import "Person.h"
 #import "KeyChain.h"
+#import "FMDBManager.h"
 
 NSString * const KEY_USERNAME = @"com.company.app.username";
 NSString * const KEY_PASSWORD = @"com.company.app.password";
@@ -34,7 +35,20 @@ NSString * const KEY_PASSWORD = @"com.company.app.password";
 //
 //    [self userdefult];
 
-    [self appleKeyChain];
+//    [self appleKeyChain];
+    
+    [self fmdb];
+}
+
+#pragma mark -- FMDB
+- (void)fmdb {
+    FMDBManager *manager = [FMDBManager sharedManager];
+    //插入数据
+    [manager updateTable:@"1" status:@[@"sdf"]];
+    [manager updateTable:@"2" status:@[@"sdf",@"gggg",@"nhhhh"]];
+
+    NSArray *arr =[manager loadTableWithCount:1];
+    NSLog(@"%@",arr);
 }
 
 #pragma mark KeyChain
@@ -142,6 +156,8 @@ NSString * const KEY_PASSWORD = @"com.company.app.password";
     NSLog(@"%@",result); //name:xiaoming --- age:14
     
 }
+
+#pragma mark -- 关于AFNetworking 和 SDWebImage,Masonry
 
 - (void)network {
     AFHTTPSessionManager *manager = [AFHTTPSessionManager manager];
