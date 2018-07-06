@@ -13,7 +13,6 @@
 #import "Person.h"
 #import "KeyChain.h"
 #import "FMDBManager.h"
-
 NSString * const KEY_USERNAME = @"com.company.app.username";
 NSString * const KEY_PASSWORD = @"com.company.app.password";
 
