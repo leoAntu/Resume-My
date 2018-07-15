@@ -11,6 +11,8 @@
 * 常见开源库解析，MJRefresh，RAC，Masonry
 * 模块化和组件化
 * 消息转发的三次拯救，每一个方法的作用，系统如何防止崩溃的。
+* hook动态库的方法，会影响别的APP么
+* 有什么情况block不能使用__weak，__strong
 
 
 
