@@ -14,6 +14,7 @@
 * hook动态库的方法，会影响别的APP么
 * 有什么情况block不能使用__weak，__strong
 * MVVM中viewModel都是为了减轻controller的负担，如果给controller添加一个类别，比较两个方式`答：类别的实质还是给controller对象添加了方法，每一个对象都添加不同的方式加进去，这个类体量会增加很多啊，反而还是增加了contoller对象类的负担，没有真正的减轻`
+* NSTimer跟GCD延时有什么区别(补充添加一个CADisplaylink，这三个的区别)
     
 
 
