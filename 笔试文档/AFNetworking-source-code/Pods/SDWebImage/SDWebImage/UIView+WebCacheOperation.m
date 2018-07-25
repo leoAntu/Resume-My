@@ -39,6 +39,7 @@ typedef NSMapTable<NSString *, id<SDWebImageOperation>> SDOperationsDictionary;
             SDOperationsDictionary *operationDictionary = [self sd_operationDictionary];
             @synchronized (self) {
                 [operationDictionary setObject:operation forKey:key];
+                
             }
         }
     }
