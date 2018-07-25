@@ -12,5 +12,7 @@ pod 'SDWebImage'
 pod 'Masonry'
 pod 'YYCache'
 pod 'FMDB'
-
+pod 'MJRefresh'
+pod 'YYModel'
+pod 'YYAsyncLayer'
 end
