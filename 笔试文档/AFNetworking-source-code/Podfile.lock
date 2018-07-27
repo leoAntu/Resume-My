@@ -22,6 +22,8 @@ PODS:
   - SDWebImage (4.3.2):
     - SDWebImage/Core (= 4.3.2)
   - SDWebImage/Core (4.3.2)
+  - YTKKeyValueStore (0.1.2):
+    - FMDB (~> 2.0)
   - YYAsyncLayer (1.0)
   - YYCache (1.0.4)
   - YYModel (1.0.4)
@@ -32,6 +34,7 @@ DEPENDENCIES:
   - Masonry
   - MJRefresh
   - SDWebImage
+  - YTKKeyValueStore
   - YYAsyncLayer
   - YYCache
   - YYModel
@@ -42,10 +45,11 @@ SPEC CHECKSUMS:
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
   MJRefresh: b48380ae2b927b46c4ef000de9adb8dc748e1df7
   SDWebImage: 29bd3c0bc1f01e5eb59720847c64ad4c4ca1af5d
+  YTKKeyValueStore: 4d002941540dd5108fa23009b71e0f2f937f7a0f
   YYAsyncLayer: df6b01ebc695c5f6b4c15dd5c23fa3e081eb25c0
   YYCache: 8105b6638f5e849296c71f331ff83891a4942952
   YYModel: 2a7fdd96aaa4b86a824e26d0c517de8928c04b30
 
-PODFILE CHECKSUM: 9ee5b3400b4cda27d8ec87d9b004cd21a85369ed
+PODFILE CHECKSUM: b05b8c17d8080dd94a73d8fe57a8a73798e5c9b7
 
 COCOAPODS: 1.4.0
