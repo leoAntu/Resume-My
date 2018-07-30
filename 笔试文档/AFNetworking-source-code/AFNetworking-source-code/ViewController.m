@@ -194,15 +194,15 @@ NSString * const KEY_PASSWORD = @"com.company.app.password";
     [self.imagView sd_setImageWithURL:[NSURL URLWithString:@"http://pic1.win4000.com/pic/8/a6/7107c45f4d.jpg"] placeholderImage:nil];
   
     [self.imageView2 sd_setImageWithURL:[NSURL URLWithString:@"https://ss0.baidu.com/6ONWsjip0QIZ8tyhnq/it/u=1642373787,660380437&fm=173&app=25&f=JPEG?w=600&h=406&s=8973CC1258F07C88A07E98C2030020F9"] placeholderImage:nil];
-//    UIView *subView = [[UIView alloc] init];
-//    subView.backgroundColor = [UIColor redColor];
-//    [self.view addSubview:subView];
-//
-//    [subView mas_makeConstraints:^(MASConstraintMaker *make) {
-//        make.left.mas_equalTo(20);
-//        make.top.mas_equalTo(100);
-//        make.width.height.mas_equalTo(100);
-//    }];
+    UIView *subView = [[UIView alloc] init];
+    subView.backgroundColor = [UIColor redColor];
+    [self.view addSubview:subView];
+
+    [subView mas_makeConstraints:^(MASConstraintMaker *make) {
+        make.left.mas_equalTo(20);
+        make.top.mas_equalTo(100);
+        make.width.height.mas_equalTo(100);
+    }];
 }
 
 - (void)didReceiveMemoryWarning {
