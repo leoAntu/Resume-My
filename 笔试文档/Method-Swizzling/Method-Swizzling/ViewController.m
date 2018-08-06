@@ -38,8 +38,7 @@
         method_exchangeImplementations(originMethod, swizzlMethod);
     }
     
-
-    [self open];
+    [self performSelector:originSEL];
 }
 
 - (void)open {
@@ -47,6 +46,7 @@
 }
 
 - (void)close {
+    [self close];
     NSLog(@"close");
 }
 
