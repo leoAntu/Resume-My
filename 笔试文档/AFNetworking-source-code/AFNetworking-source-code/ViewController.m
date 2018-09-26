@@ -182,10 +182,6 @@ NSString * const KEY_PASSWORD = @"com.company.app.password";
 
     }];
     [dataTask1 resume];
-
-
-  
-
 }
 
 - (void)sdwebIamge {
